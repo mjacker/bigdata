@@ -37,10 +37,16 @@ if python 3.11 is required:
 1. `sudo apt install python3.11`
 :::
 
+1. Installing anaconda from [here](https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh)
+`chmod +x Anaconda3-2024.02-1-Linux-x86_64.sh`
+`./Anaconda3-2024.02-1-Linux-x86_64.sh`
+> Restart the operating system
 
-1. Installing pip
-`sudo apt install python3-pip -y`
+```python
+# 1. Installing pip
+# `sudo apt install python3-pip -y` 
 > Around 83 Mb.
+```
 
 1. Installing pymongo
 `sudo pip3 install pymongo`
